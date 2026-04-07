@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mic Vidan Ltd</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* Header */
+header {
+    background: #001f3f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #00aaff;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #00aaff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to right, black, #001f3f);
+}
+
+.hero h2 {
+    color: #00aaff;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    color: #00aaff;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #111;
+    padding: 15px;
+    border-left: 4px solid #00aaff;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    color: #00aaff;
+}
+
+/* Contact */
+.contact a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #001f3f;
+    margin-top: 40px;
+}
+
+/* Button */
+button {
+    background: #00aaff;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0088cc;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mic Vidan Ltd</h1>
+    <p>Refrigeration & Air Conditioning Spares and Equipment</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#delivery">Delivery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Reliable Cooling Solutions</h2>
+    <p>Serving Lagos, Nigeria and customers worldwide</p>
+    <a href="#contact"><button>Contact Us</button></a>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Mic Vidan Ltd supplies high-quality refrigeration and air conditioning
+        spare parts and equipment for companies, technicians, and individuals.
+        We are based in Lagos and deliver nationwide and globally.
+    </p>
+</section>
+
+<section id="products" class="section">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+        <div class="product-card">
+            <img src="fan-unit.jpg" alt="Cooling Fan Unit">
+            <h3>Cooling Fan Units</h3>
+            <p>High-performance condenser and evaporator fan systems.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="compressor.jpg" alt="Compressor">
+            <h3>Compressors</h3>
+            <p>Industrial refrigeration compressors for all applications.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="parts.jpg" alt="Spare Parts">
+            <h3>Spare Parts</h3>
+            <p>Pistons, rods, valves, and essential AC components.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="delivery" class="section">
+    <h2>Delivery</h2>
+    <p>
+        We deliver across Nigeria and internationally.
+        Fast, reliable, and secure logistics for all customers.
+    </p>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:+2348022957661">+2348022957661</a></p>
+    <p><strong>Email:</strong> <a href="mailto:RIstiany2k@Yahoo.com">RIstiany2k@Yahoo.com</a></p>
+    <p>Contact us for orders and inquiries.</p>
+</section>
+
+<footer>
+    <p>© 2026 Mic Vidan Ltd. All Rights Reserved.</p>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/2348022957661?text=Hello%20I%20want%20to%20inquire%20about%20your%20products" target="_blank" class="whatsapp-btn">
+    💬 Chat on WhatsApp
+</a>
+
+</body>
+</html>
